@@ -35,7 +35,7 @@
 
     <link href="./favicon.ico" rel="icon" type="image/x-icon" />
 
-    <title>Sharks Attacks</title>
+    <title>Shark Attacks</title>
 
     <style>
         body {
@@ -74,7 +74,7 @@
           <div class="ui grid container" id ='cbs' style="margin:5px">
 
             <div class="ten wide column">
-              <h2 class="ui inverted header">Нападения 2017 - 2018</h2>
+              <h2 id="header" class="ui inverted header">{{ header }}</h2>
             </div>
 
             <div class="six wide column">
@@ -121,6 +121,13 @@
 
     // var data_server_url = 'http://localhost:5002/shark_attacks'
     var earth_texture_url = 'https://i.imgur.com/LkqZd2H.jpg'
+
+    new Vue({
+      el: '#header',
+      data: {
+        header: "Controls"
+      }
+    })
 
     new Vue({
       el: '#year_select',
