@@ -4,6 +4,7 @@ Hackathon project for visualization of shark attacks around the world made by [m
 
 
 ### [**Live demo**](https://fasashen.github.io/Shark-Attacks-Visualization/)
+![preview](/assets/screenshot.png)
 
 **Stack:** Vue.js + three.js + semantic ui
 
